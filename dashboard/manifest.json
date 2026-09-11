@@ -1,0 +1,14 @@
+{
+  "name": "connectors-panel",
+  "label": "连接器面板",
+  "description": "统一管理所有连接器：MCP 工具、消息平台、技能集成",
+  "icon": "Plug",
+  "version": "1.0.0",
+  "tab": {
+    "path": "/connectors",
+    "position": "after:skills"
+  },
+  "slots": [],
+  "entry": "dist/index.js",
+  "api": "plugin_api.py"
+}
